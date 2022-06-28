@@ -10,6 +10,7 @@ public class Main {
 
         System.out.println("Hello World, my name is Vasile");
         System.out.println("Salutare lume -----> " + LocalDate.now().format(DateTimeFormatter.ofPattern("dd.MM.yyyy")));
+	    //comentariu adaugat in repo central
 
     }
 }
