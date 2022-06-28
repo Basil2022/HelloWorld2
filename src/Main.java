@@ -1,3 +1,8 @@
+
+import java.time.LocalDate;
+import java.time.chrono.ChronoZonedDateTime;
+import java.time.format.DateTimeFormatter;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -9,7 +14,7 @@ public class Main {
 	     System.out.println("Hello World 4 ");
 	     System.out.println("Hello World 5 ");
 	     System.out.println("Hello World azi 28 iunie ");
-	    System.out.prinln("Rand adaugat din repo central azi, -----------> " + LocalDate.now().format(DateTimeFormatter.ofPattern("dd.MM.yyyy")));
+	    System.out.println("Rand adaugat din repo central azi, -----------> " + LocalDate.now().format(DateTimeFormatter.ofPattern("dd.MM.yyyy")));
 		    
 
     }
